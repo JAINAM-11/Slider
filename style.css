@@ -183,8 +183,8 @@ header{
 .slider .list::after{
     position: absolute;
     content: '';
-    bottom: 0;
-    width: min(900px, 90vw);
+    bottom: -10%;
+    width: min(1000px, 100vw);
     height: 90%;
     left: 50%;
     transform: translateX(-50%);
