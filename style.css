@@ -185,7 +185,7 @@ header{
     content: '';
     bottom: -10%;
     width: min(1000px, 100vw);
-    height: 90%;
+    height: 100%;
     left: 50%;
     transform: translateX(-50%);
     background-image: url(img/model.png);
