@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Sky Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <header>
+            <figure class="logo">
+                <img src="img/logo.png" alt="">
+            </figure>
+            <nav>
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                </svg>
+            </nav>
+        </header>
+        <section class="slider">
+            <div class="list">
+                <div class="item active">
+                    <div class="image" style="--url: url('img/1.jpg')"></div>
+                    <div class="content">
+                        <h2>Winds Chase Freedom</h2>
+                        <p>
+                            The sky wears dawn like a golden crown, painting the clouds with fire before the world awakens.
+                        </p>
+                        <p>
+                            At twilight, the heavens become a canvas where stars begin their silent, sparkling dance.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image" style="--url: url('img/2.jpg')"></div>
+                    <div class="content">
+                        <h2>Ocean's Eternal Song</h2>
+                        <p>
+                            Blue infinity stretches endlessly, where migrating birds write poetry across the sky with their wings.
+                        </p>
+                        <p>
+                            Storm clouds gather like ancient storytellers, whispering thunder before the rain's gentle applause.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image" style="--url: url('img/3.jpg')"></div>
+                    <div class="content">
+                        <h2>Forest Whispers Wisdom</h2>
+                        <p>
+                            The Milky Way spills across the night like a careless god's glittering treasure.
+                        </p>
+                        <p>
+                            Morning mist rises to meet the sun, as if the earth is breathing skyward.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button id="prev">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4"/>
+                    </svg>
+                </button>
+                <button id="next">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
